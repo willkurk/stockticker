@@ -1,4 +1,4 @@
-# Play Stock Ticker in Scala
+# Stock Ticker in Scala Play
 
 This software was built in:
 * JDK (SE) 1.8.0_222
