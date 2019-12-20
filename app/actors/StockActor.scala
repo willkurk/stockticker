@@ -26,7 +26,7 @@ class StockActor(out: ActorRef) extends Actor with Logging {
           out ! ("{\"status\":\"Error while requesting stock information\"}")
         }
       }
-      Thread.sleep(2000)
+      Thread.sleep(1000)
       self ! PollMessage
     }
     case msg: String =>

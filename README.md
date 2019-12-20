@@ -6,7 +6,11 @@ This software was built in:
 It was initialized with sbt new playframework/play-scala-seed.g8.
 
 The code can be executed with sbt run from the root directory. It was tested in Ubuntu 16.04
-Browse to localhost:9000 to try it out. 
+Browse to localhost:9000 to try it out. The ticker updates every second.
+
+You can update the ticker by entering the desired symbol into the text box and clicking Update Symbol. If you enter an invalid one, it will fail but there will be no validation errors on the frontend right now. It will function again if you enter a correct one though. 
+
+When you update the symbol, it may take a few seconds before the ticker updates. This is one area for improvement.
 
 Potential Improvements:
 * Better validation on the frontend
