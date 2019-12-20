@@ -1,5 +1,21 @@
 @()
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stock Ticker</title>
+  </head>
+  <body id="app">
+    <script src="/assets/index.js">
+    </script>
 
-@main("Welcome to Play") {
-  <h1>Welcome to Play!</h1>
-}
+    <h2>Stock Ticker</h2>
+    <h3 id="symbol">Showing BAC</h3>
+    <h3 id="price">
+      Initializing
+    </h3>
+    <br />
+    <input type="text" id="newSymbol"/>
+    <input type="button" value="Update Symbol" onclick="updateSymbol()"/>
+  </body>
+</html>
